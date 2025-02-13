@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>İletişim</h2>
+<p>Tüm Sorularınız İçin:</p>
+<p>Destek Hattı: +90 531 649 60 09</p>
+<p>Prime Time 24/7</p>
+<p>Uzmanlarımıza: Mail Gönderin</p>
+<form action="#" method="post">
+    <label for="name">İsim:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="message">Mesaj:</label><br>
+    <textarea id="message" name="message"></textarea><br>
+    <input type="submit" value="Gönder">
+</form>
+{% endblock %}
